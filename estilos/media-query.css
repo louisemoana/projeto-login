@@ -7,7 +7,7 @@
 
     #login {
         width: 80vw;
-        height: 70vh;
+        height: 55vh;
     }
 
     #login > #imagem {
@@ -30,17 +30,25 @@
 
     #login {
         width: 85vw;
-        height: 80vh;
+        height: 55vh;
     }
 
     #login > #imagem {
-        float: left;
+        float: right;
         width: 40%;
         height: 100%;
     }
 
     #login > #formulario {
-        float: right;
+        float: left;
         width: 60%;
+    }
+
+    #formulario > h1 {
+        font-size: 1.2;
+    }
+    
+    #formulario > p {
+        font-size: 1.2em;
     }
 }
